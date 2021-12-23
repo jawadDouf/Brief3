@@ -1,0 +1,677 @@
+.bigMenu{
+    position:fixed;
+    z-index: 1;
+    width: 101%;    
+    margin-left: -11px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top:1%;
+    background-color: black;
+    height: 65px;
+    margin-top: -8px;
+    
+}
+.smallMenu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 13%;
+    padding-left: 13%;
+    color: white;
+
+}
+#logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -36px;
+    left: 15px;
+    
+}
+#Rent{
+font-size: 36px;
+color: white;
+
+}
+#Me{
+font-size: 36px;
+color: #EEF218;    
+}
+#Now{
+font-size: 36px;  
+color: #EEF218;
+}
+#moto{
+    font-size: 16px;  
+    color: white;
+    position:absolute;
+    left: 80px;
+    top: 54px;
+
+}
+#Acceuil{
+    color: #EEF218;    
+    }
+.pName:hover{
+color: #EEF218;
+
+}
+main > div{
+    width: 101.25%;
+    height: 500px;
+    position: relative;
+    top: 70px;
+    left: -8px;
+    right: 0px;
+    background-image: url("COVER3.jpeg");
+    background-position: center ;
+    background-size: cover;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    top: 20%;
+    left: 8%;
+    background-color: rgb(0, 0, 0,0.7);
+    width: 84%;
+    height: 40%;
+   
+    
+}
+.input{
+    padding: 1%;
+    margin-bottom: 7%; 
+    width: 25%;
+    border-radius: 7px;
+}
+.date{
+    padding: 1%;
+    margin-bottom: 7%; 
+    width: 25%;
+    border-radius: 7px;
+}
+.searchButton{
+    padding: 13px;
+    margin-bottom: 7%; 
+    width: 10%;
+    height: auto;
+    border-radius: 7px;
+    background-color:#EEF218;
+    color: black;
+    font-size: 15px;
+    
+}
+.city{
+    position: absolute;
+    bottom: 63%;
+    left: 1.5%;
+
+    color: white;
+}
+.pickup{
+    position: absolute;
+    bottom: 63%;
+    left: 31.5%;
+
+    color: white;
+}
+.dropoff{
+    position: absolute;
+    bottom: 63%;
+    left: 60.5%;
+
+    color: white;
+}
+#titre{
+    position: absolute;
+    bottom: 70%;
+    left: 1.5%;
+    font-size: 25px;
+    color: white;
+}
+#checkbox{
+    position: absolute;
+    left: 1%;
+    bottom: 19%;
+    width: 2%;
+    height: 9%;
+}
+.checkbox{
+    position: absolute; 
+    left: 4%;
+    bottom: 20%;
+    font-size: 16px;
+    color: white;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    position:relative;   
+    top: 62%;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+.heading{
+    position:absolute;
+    left: 39%;
+    top: 1%;
+    height: 20%;
+   
+}
+.heading >h3{
+    position:relative;
+    left: 4%;
+    top: -48%;
+    font-size: 25px;
+}
+.line1{
+    position:relative;
+    left: -2%;
+    top: -80%;
+}
+.line2{
+    position:relative;
+    left: -20%;
+    top: -100%;
+}
+.iconDiv{
+    width: 15%;
+    background-color: #EEF218;
+    border: black;
+    border-style: solid;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 4%;
+    margin-top: 8.7%;
+    margin-left: 2%;  
+    margin-right: 2%;
+    
+}
+
+.icon1{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10%;
+    top: -50%;
+
+}
+.icon2{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 14%;
+    top:-1%;
+
+}
+.icon3{
+    width: 35%;
+    height: auto;
+    position: relative;
+    left: 16%;
+    top: 4%;
+
+}
+.start{
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position:relative;
+    top:30% ;
+    left: 10.19%;
+    background-color: white;
+    font-size: 12px;
+}
+.pTitre1{
+    position:relative;
+    top:34% ;
+    left: 21%;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.pTitre2{
+    position:relative;
+    top:-17% ;
+    left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.pTitre3{
+    position:relative;
+    top:-4% ;
+    left: 28%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+
+}
+
+.numberFix{
+    position: relative;
+    left: 15%;
+    top: -22%;
+    font-size: 100%;
+}
+.numberPhone{
+    position: relative;
+    left: 10%;
+    top: -9%;
+    font-size: 100%;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(78, 75, 75);
+    position: absolute;
+    top: 170%;
+    left: 0%;
+}
+.copyright{
+    position: absolute;
+    left:40%;
+    bottom :0%;
+    color: white;
+    font-size: 15px;
+}
+.footerIcons{
+    width: 15%;
+    position: relative;
+    top: 45%;
+    left: 45%;
+    height: 13%;
+    display: flex;
+    gap: 8%;
+
+}
+.footerIcons > img{
+    width: 10%;
+    height: auto;   
+}
+@media (min-width : 700px) and (max-width :980px){
+
+.inputs{
+        position: relative;
+        top: 20%;
+        left: 8%;
+        width: 84%;
+        height: 35%;  
+    }
+.input{
+        padding: 1%;
+        margin-bottom: 8%; 
+        width: 25%;
+        border-radius: 7px;
+        
+    }
+#checkbox{
+        position: absolute;
+        left: 1%;
+        bottom: 6%;
+        width: 2%;
+        height: 9%;
+    }
+.checkbox{
+        position: absolute; 
+        left: 4%;
+        bottom: 9%;
+        font-size: 14px;
+        
+    }
+.searchButton{
+        padding: 2%;
+        margin-bottom: 7%; 
+        width: 11%;
+        height: auto;
+        font-size: 13px;
+
+        
+    }
+#titre{
+        position: absolute;
+        bottom: 70%;
+        left: 1.5%;
+        font-size: 23px;
+        
+    }
+.city{
+        position: absolute;
+        bottom: 55%;
+        
+    
+        
+    }
+.pickup{
+        position: absolute;
+        bottom: 55%;
+        
+    
+        
+    }
+.dropoff{
+        position: absolute;
+        bottom: 55%;
+        
+    }
+.date{
+        padding: 1%;
+        margin-bottom: 7.2%;
+        width: 25%;
+        border-radius: 7px;
+    }
+#logo{
+        width: 20%;   
+    }
+.iconDiv{
+        margin-top: 9%;
+    }
+.contacts{
+        position:relative;   
+        top: 70%;
+       
+    }
+.heading{
+        position:absolute;
+        left: 39%;
+        top: -5%;
+        height: 30%;
+        font-size: 15px;
+        
+    }
+.line1{
+        position:relative;
+        left: -2%;
+        top: -41%;
+    }
+.line2{
+        position:relative;
+        left: -20%;
+        top: -63%;
+    }
+.heading >h3{
+        position:relative;
+        left: 4%;
+        top: -16%;
+        font-size: 20px;
+    }
+.footerIcons{
+        left: 50%;
+    }   
+}
+@media (min-width : 530px) and (max-width :700px){
+.smallMenu{
+
+        gap: 9%;
+        
+    
+    }
+.inputs{
+        position: relative;
+        top: 20%;
+        left: 8%;
+        width: 84%;
+        height: 35%;  
+    }
+.input{
+        padding: 1%;
+        margin-bottom: 12%; 
+        width: 25%;
+        border-radius: 7px;
+        
+    }
+#checkbox{
+        position: absolute;
+        left: 0%;
+        bottom: 14%;
+        width: 3%;
+        height: 9%;
+    }
+.checkbox{
+        position: absolute; 
+        left: 6%;
+        bottom: 16%;
+        font-size: 13px;
+        
+    }
+.searchButton{
+        padding: 2%;
+        margin-bottom: 11%; 
+        width: 11%;
+        height: auto;
+        font-size: 8px;
+
+        
+    }
+#titre{
+        position: absolute;
+        bottom: 70%;
+        left: 1.5%;
+        font-size: 23px;
+        
+    }
+.city{
+        position: absolute;
+        bottom: 55%;
+        
+    
+        
+    }
+.pickup{
+        position: absolute;
+        bottom: 55%;
+        
+    
+        
+    }
+.dropoff{
+        position: absolute;
+        bottom: 55%;
+        
+    }
+.date{
+        padding: 1%;
+        margin-bottom: 11.2%;
+        width: 25%;
+        border-radius: 7px;
+    }
+#logo{
+        width: 5%;
+        margin-left: -12%; 
+        
+    }
+.iconDiv{
+        margin-top: 9%;
+    }
+.contacts{
+        position:relative;   
+        top: 70%;  
+    }
+.heading{
+        position:absolute;
+        left: 39%;
+        top: -5%;
+        height: 30%;
+        font-size: 15px;
+        
+    }
+.line1{
+        position:relative;
+        left: -2%;
+        top: -41%;
+        font-size: 10px;
+    }
+.line2{
+        position:relative;
+        left: -20%;
+        top: -63%;
+        font-size: 10px;
+    }
+.heading >h3{
+        position:relative;
+        left: 4%;
+        top: -16%;
+        font-size: 20px;
+    }
+.footerIcons{
+        left: 50%;
+    }
+}
+@media (max-width: 530px) {
+.inputs{
+    display: none;
+}
+
+
+#logo{
+    display: none;
+        } 
+.smallMenu{
+     width: 50%;
+     display: flex;
+     flex-direction: row;
+     gap: 13%;
+     margin-left: -43%;
+     color: white;
+        
+        }
+.footer{            
+            background-color: rgb(0, 0, 0);
+            margin-top: 33%;
+            width: 100%;
+    }
+.copyright{
+    
+        color: white;
+        font-size: 10px;
+        width: 80%;
+        position: relative;
+        bottom: -62%;
+        margin-left: -20%;
+        display: block;
+        
+    }
+.footerIcons{
+        width: 28%;
+        display: flex;
+        gap: 8%;
+        margin-left: -9%;
+        position: relative;
+        top:66%;
+    }
+.contacts{
+        position:relative;   
+        top: 115%;  
+        display: flex;
+        flex-direction: column;
+    }
+.heading{
+        position:absolute;
+        left: 39%;
+        top: -5%;
+        height: 30%;
+        font-size: 15px;
+        
+    }
+.line1{
+        position:relative;
+        left: -2%;
+        top: -41%;
+        font-size: 10px;
+    }
+.line2{
+        position:relative;
+        left: -20%;
+        top: -63%;
+        font-size: 10px;
+    }
+.heading >h3{
+        position:relative;
+        left: 4%;
+        top: -16%;
+        font-size: 20px;
+    }
+.iconDiv{
+        width: 70%;
+        margin-top: 8.7%;
+        margin-left: 11%;  
+        margin-right: 2%;
+        
+    } 
+.icon1{
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 10%;
+        top: -50%;
+    
+    }
+.icon2{
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 30%;
+        top:-1%;
+    
+    }
+.icon3{
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 29%;
+        top: 4%;
+    
+    }
+.start{
+        padding: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        position:relative;
+        top:30% ;
+        left: 10.19%;
+        background-color: white;
+        font-size: 12px;
+    }
+.pTitre1{
+        position:relative;
+        top:34% ;
+        left: 21%;
+        font-weight: bolder;
+        text-decoration: underline;
+    
+    }
+.pTitre2{
+        position:relative;
+        top:-47% ;
+        left: 38%;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+.pTitre3{
+        position:relative;
+        top:-4% ;
+        left: 34%;
+        font-weight: bolder;
+        text-decoration: underline;
+        
+    
+    }
+    
+.numberFix{
+        position: relative;
+        left: 23%;
+        top: -22%;
+        font-size: 100%;
+    }
+.numberPhone{
+        position: relative;
+        left: 21%;
+        top: -9%;
+        font-size: 100%;
+    }   
+}
