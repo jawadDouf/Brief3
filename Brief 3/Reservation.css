@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+font-family: 'Lora', serif;
+}
+.bigMenu{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color:white;
+  font-size: 15px;  
+  align-items: center;
+}
+.smallMenu{
+    display: flex;
+    flex-direction: row;  
+    flex:1;
+    justify-content: space-around;
+}
+#logo{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.fHalf{ 
+  display: flex;
+  flex-direction: row;
+  font-size:25px;
+  position: relative;
+  left: 5px;
+}
+#moto{
+  color: white;
+  position: relative;
+  bottom: 6px;
+  left: 54px;
+  font-size: 12px;
+}
+#Réservation{
+  color: #e84118;
+}
+#Rent{
+  color: white;
+  }
+#Me{
+  color: #e84118    
+  }
+#Now{
+  color: #e84118;
+  }
+.pName:hover{
+    color: #e84118
+    }
+a:hover{
+      color: #e84118
+      }
+/* Filter */
+#invisibleCar{
+  display: none;
+}
+
+.Filter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  list-style: none;
+ color: azure;
+ background-color: black;
+ height: 35px;
+}
+/* Vehicule */
+.subMenu{
+  display: none;
+}
+.v:hover{
+  color: #e84118;
+  cursor: pointer;
+}
+.v:hover  .subMenu{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  list-style: none;
+  position: absolute;
+  top: 82PX;
+  height: 317px;
+  gap: 10px;
+}
+.subMenu > li{
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 15px;
+  border-bottom: white solid;
+  text-align: center;
+
+}
+
+.subMenu > li:hover{
+color: #e84118;
+}
+/* Carburent */
+.subMenuCar{
+  display: none;
+}
+.v:hover  .subMenuCar{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  list-style: none;
+  position: absolute;
+  top: 82PX;
+  height: 180px;
+  gap: 10px;
+}
+.subMenuCar > li{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  border-bottom: white solid;
+  text-align: center;
+}
+.subMenuCar > li:hover{
+  color: #e84118;
+  }
+/* Vehicule */
+.subMenuVit{
+  display: none;
+}
+.v:hover  .subMenuVit{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  list-style: none;
+  position: absolute;
+  top: 82PX;
+  height: 82px;
+  gap: 10px;
+}
+.subMenuVit > li{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  border-bottom: white solid;
+  text-align: center;
+}
+.subMenuVit > li:hover{
+  color: #e84118;
+  }
+/* list of cars */
+#listOfCars{
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.oneCar{
+  border: solid black 1px;
+  width: 300px;
+  height: 400px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+}
+.carName{
+  text-align: center;
+  font-size: 15px;
+}
+.oneCar > p{
+  display: inline;
+  white-space: nowrap;
+}
+.oneCar > .features{
+  opacity: 0.8;
+  font-size: 12px;
+  padding: 10.5%;
+  text-decoration: underline;
+}
+#tarifPerDay{
+  color: #e84118;
+}
+.oneCar > button{
+  display: inline;
+  padding: 2% 6% 2% 6%;
+  margin-left: 9%;
+  margin-top: 3%;
+  color: white;
+  background-color: #e84118;
+  border: none;
+  cursor: pointer;
+}
+.description{
+  font-size: 12px;
+  opacity: 0.8;
+  margin-left: 9%;
+}
+.visa{
+  width: 14%;
+  height: auto;
+  position: relative;
+  left: 0%;
+  bottom: 16%;
+}
+.mastercard{
+  width: 13%;
+  height: auto;
+  position: relative;
+  left: 17%;
+  bottom: 32%;
+}
+.burger{
+  display: none;
+}
+.burger > div{
+  width: 25px;
+  height: 5px;
+  background-color: white;
+  margin: 5px;
+}
+.model{
+  /* position the model */
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  /* border styling */
+  border: 1px solid black;
+  border-radius: 10px;
+  /* above everything */
+  z-index: 10;
+  /* colors */
+  background-color: white;
+  /* size */
+  width: 400px;
+  max-width: 80%;
+  height: 25%;
+}
+.title{
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.title > .closeButton{
+  padding: 1% 2% 1% 2%;
+  color: white;
+  background-color: #e84118;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.model-body{
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: 70%;
+  text-align: center;
+}
+.model-body > button{
+  width: 20%;
+  padding: 1% 1% 1% 1%;
+  color: white;
+  background-color: #e84118;
+  border: none;
+  cursor: pointer;
+}
+.oneInput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+.oneInput > input{
+  width: 50%;
+}
+.oneInput > button{
+  width: 15%;
+  padding: 1% 1% 1% 1%;
+  color: white;
+  background-color: #e84118;
+  border: none;
+  cursor: pointer;
+}
+#overlay{
+  position:fixed;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0,0,0, .5);
+  pointer-events: none; 
+  cursor: pointer;
+}
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+} 
+.model.active{
+  transition: all 200ms ease-in-out;
+  transform: translate(-50%,-50%) scale(1);
+}
+.footer{
+  height: 80px;
+  width : 100%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  background-color: rgb(15, 12, 12);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.copyright{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.footerIcons{
+  width: 110px;
+  height: 30px;
+  display: flex;
+  gap: 8%;
+
+}
+.footerIcons > img{
+  width: 15px;
+  height: auto;  
+}
+
+@media (max-width : 600px){
+  body{
+    overflow-x: hidden;
+    }
+  .smallMenu{
+      position: absolute;
+      right: 0px;
+      top: 50px;
+      height: 92vh;
+      width: 100%;
+      background-color: black;
+      opacity: 0.9;
+      z-index: 1;  
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .burger{
+      display: block;
+      cursor: pointer;
+    }
+  .smallMenu.active{
+    transform: translateX(0%);
+  }
+  #logo{
+    align-items: center;
+  }
+  #moto{
+    left: 28px;
+  }
+  .copyright{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+.footerIcons{
+    width: 95px;
+    height: 25px;
+  }
+  }

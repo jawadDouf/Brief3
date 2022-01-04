@@ -4,7 +4,7 @@
     width: 101%;    
     margin-left: -11px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     padding-top:1%;
     background-color: black;

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reservation</title>
+<body>
+    <nav>
+    <div class = "bigMenu">
+        <div id = "logo">
+        <div class = "fHalf">
+            <p id="Rent">Rent</p>
+            <p id="Me">Me</p>
+            <p id="Now">Now</p>
+      </div>
+        <p id = "moto">Moto,Cars,Vans</p>
+         </div>
+        <div class = "smallMenu" id="cc"><p class = "pName"><a href="Acceuil.html">Acceuil</a></p>
+            <p class = "pName"><a href="Gallerie.html">Gallerie</a></p>
+            <p id = "Réservation">Réservation</p>
+            <p class = "pName">Contact</p>
+        </div>
+        <div class = "burger">
+           <div></div>
+           <div></div>
+           <div></div>
+        </div>
+    </div>
+   </nav>
+  <main>
+      <section>
+    <div>
+        <ul class="Filter">
+        <li class="v" id="filterVeh">Vehicule <i class="fas fa-sort-down" ></i>
+            <ul class="subMenu" >
+                   <li id="j" >Motocycle</li>
+                   <li id = "compact">Compact</li>
+                  <li id = "citadin">Citadin</li>
+                  <li id = "utilitaire">Utilitaire</li>
+                   <li id = "berlin">Berlin</li>
+                  <li id = "camion">Camion</li>
+                  <li id = "engin">Engin de chantier</li>
+            </ul>
+        </li>
+            <li class="v" id="filterCar">Carburant <i class="fas fa-sort-down"></i>
+                <ul class="subMenuCar">
+                    <li id = "essence">Essence</li>
+                    <li id = "diesel">Diesel</li>
+                   <li id="electrique">Electrique</li>
+                   <li id="hybrid">Hybrid</li>
+             </ul>
+            </li>
+            <li class="v" id="filterVit">boite à vitesse <span><i class="fas fa-sort-down"></i></span>
+                <ul class="subMenuVit">
+                    <li id = "manuelle">Manuelle</li>
+                    <li id = "automatique">Automatique</li>
+             </ul>
+            </li>
+          </ul>
+    </div>
+  </section>
+    <section class = "Items">
+     <div id = "listOfCars">
+            <div class = "oneCar" id = "invisibleCar">
+                 <img src="Car One.webp" alt="model1" style="width:200px;height:180px;">
+                 <H6 class="carName">Renault clio 2014</H6>  
+                 <p class="features">Carburent :</p>
+                 <p class = "carburant">essence</p>
+                 <p class="features">boite à vitesse :</p>
+                 <p class = "boite">invisibleCar</p>
+                 <p class="features">Tarif / jour</p>
+                 <p id = "tarifPerDay">13.6 £</p>
+                 <p class="description">La société RentMeNow a besoin d'un</p>
+                 <p class="description">siteweb pour automatiser le processus </p>
+                 <p class="description">de réservationen ligne de ses véhicules</p>  
+                 <button class = "reserve">Reserver</button>
+                 <img src="visa.png" alt="model1" class="visa" >
+                 <img src="mastercard.png" alt="model1" class="mastercard" >
+                 <p id="type">Citadin</p>
+            </div>
+     </div>
+    </section>
+    <section>
+    <div class = "model" id="model" >
+     <div class = "title">
+          Completer le Réservation
+         <button class="closeButton" >&times;</button>
+     </div>
+    <div class = "model-body">
+        <p>pick-up date:</p>
+        <div class = "oneInput">
+        <input type="date"  name="start" id = "pickUp">
+        <button class="suivant1">Suivant</button>
+        </div>
+        
+        <!-- <label for="end">drop-off date</label>
+        <input type="date" name="end" > -->
+         
+    </div>
+    </div>
+    <div id="overlay" ></div>
+    </section>
+</main>
+<footer>
+    <div class = "footer">
+        <div class = "footerIcons">
+        <img src="facebook.png" alt="Italian Trulli">
+        <img src="twitter.png" alt="Italian Trulli">
+        <img src="gmail.png" alt="Italian Trulli">
+        <img src="instagram.png" alt="Italian Trulli">
+        </div>
+        <p class = "copyright">© 2021-2022 RentMeNow.com Corporation</p>
+    </div>
+</footer>
+</body>
+<script src="Reservation.js"></script>
+</html>
